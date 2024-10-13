@@ -7,5 +7,6 @@ import CommonButton from "./CommonButton";
 import CommonInput from "./CommonInput";
 import CommonPostCard from "./CommonPostCard";
 import CommonSelect from "./CommonSelect";
+import RTE from "./RTE";
 
-export { Header, Footer, Container, Logo, LogoutBtn, CommonButton, CommonInput, CommonPostCard, CommonSelect };
+export { Header, Footer, Container, Logo, LogoutBtn, CommonButton, CommonInput, CommonPostCard, CommonSelect, RTE };
