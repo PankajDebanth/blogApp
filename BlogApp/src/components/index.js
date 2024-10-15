@@ -8,5 +8,9 @@ import CommonInput from "./CommonInput";
 import CommonPostCard from "./CommonPostCard";
 import CommonSelect from "./CommonSelect";
 import RTE from "./RTE";
+import Signup from "./Signup";
+import Login from "./Login"
+import PostForm from "./post-form/PostForm";
+import { Protected as AuthLayout } from "./AuthLayout";
 
-export { Header, Footer, Container, Logo, LogoutBtn, CommonButton, CommonInput, CommonPostCard, CommonSelect, RTE };
+export { Header, Footer, Container, Logo, LogoutBtn, CommonButton, CommonInput, CommonPostCard, CommonSelect, RTE, Signup, Login, PostForm, AuthLayout};
