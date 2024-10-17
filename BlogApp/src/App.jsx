@@ -25,7 +25,8 @@ const App = () => {
     <div className="w-full block">
       <Header/>
       <main>
-        {/* <Outlet/> */}
+        <Outlet/>
+        {/* <h1>hhg</h1> */}
       </main>
       <Footer/>
     </div>
