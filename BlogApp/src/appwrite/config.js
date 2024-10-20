@@ -61,7 +61,7 @@ export class Service {
 
   async getPosts(queries = [Query.equal("status", "active")]) {
     try {
-      return await this.databases.listDocument(conf.appwriteDatabaseId, conf.appwriteCollectionId, queries);
+      return await this.databases.listDocuments(conf.appwriteDatabaseId, conf.appwriteCollectionId, queries);
     } catch (error) {
       console.error("Error in get posts:", error);
       throw error;
